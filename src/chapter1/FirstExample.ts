@@ -1,10 +1,10 @@
 
 const si: boolean = true
-
 let timestamp = Date.now();
 let now: Date = new Date();
 let ms: number = now.getTime();
 let iso: string = now.toISOString();
+let n: number = 12
 
 
 console.log(timestamp)
@@ -35,3 +35,5 @@ console.log(multiLineString);
 // Output:
 // the newline character at the end of this line
 // is included literally in this string
+
+export {};
