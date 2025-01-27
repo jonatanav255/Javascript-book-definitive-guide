@@ -1,9 +1,5 @@
 
 const si: boolean = true
-import { n } from "../Chapter5/Example1";
-
-
-console.log("hi")
 
 let timestamp = Date.now();
 let now: Date = new Date();
