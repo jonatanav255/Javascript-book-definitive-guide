@@ -1,11 +1,11 @@
-let n: number = 3.14
 
 const si: boolean = true
+let n: number = 12;
 
 
 console.log("hi")
 
-let timestamp:number = Date.now();
+let timestamp = Date.now();
 let now: Date = new Date();
 let ms: number = now.getTime();
 let iso: string = now.toISOString();
