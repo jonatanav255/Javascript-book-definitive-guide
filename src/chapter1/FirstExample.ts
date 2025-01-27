@@ -1,6 +1,6 @@
 
 const si: boolean = true
-let n: number = 12;
+import { n } from "../Chapter5/Example1";
 
 
 console.log("hi")
