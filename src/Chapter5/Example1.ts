@@ -6,4 +6,10 @@ let hex: string = '0x' + n.toString(16)
 
 console.log(binary, octal, hex)
 
-export {};
+function sayHello () {
+  console.log('Hello')
+}
+
+console.log(sayHello()) // Output: "Hello" and then `undefined`
+
+export {}
